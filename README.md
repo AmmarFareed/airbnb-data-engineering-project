@@ -1,7 +1,8 @@
 # 🏡 Airbnb London Data Analysis Project
 
 ![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)
-![Pandas](httpss.io/badge/NumPy-Numerical%20Computing-blue
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-purple)
+![NumPy](https://img.shields.io/badge/NumPy-Numerical%20Computing-blue)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-orange)
 ![Seaborn](https://img.shields.io/badge/Seaborn-Statistical%20Plots-lightblue)
 ![SciPy](https://img.shields.io/badge/SciPy-Statistics-green)
@@ -75,7 +76,7 @@ Created the following features:
 ## 📊 Exploratory Data Analysis
 
 ### 💰 Price Distribution
-![Price Distribution](price_distribution.png)
+![Price Distribution](assets/price_distribution.png)
 
 - Right-skewed distribution  
 - Most listings priced between £70–£220  
@@ -84,7 +85,7 @@ Created the following features:
 ---
 
 ### 🏡 Price by Room Type
-![Price by Room Type](price_by_room_type.png)
+![Price by Room Type](assets/price_by_room_type.png)
 
 - Entire homes and hotel rooms are most expensive  
 - Private rooms are mid-range  
@@ -93,7 +94,7 @@ Created the following features:
 ---
 
 ### 📍 Neighbourhood Pricing
-![Neighbourhood Pricing](neighbourhood_prices.png)
+![Neighbourhood Pricing](assets/neighbourhood_prices.png)
 
 - Central areas such as City of London and Westminster have highest prices  
 - Outer areas are comparatively cheaper  
@@ -101,7 +102,7 @@ Created the following features:
 ---
 
 ### 📈 Occupancy Distribution
-![Occupancy Distribution](occupancy_distribution.png)
+![Occupancy Distribution](assets/occupancy_distribution.png)
 
 - Many listings have low occupancy  
 - Few listings dominate bookings  
@@ -109,7 +110,7 @@ Created the following features:
 ---
 
 ### 🔵 Price vs Occupancy
-![Price vs Occupancy](price_vs_occupancy.png)
+![Price vs Occupancy](assets/price_vs_occupancy.png)
 
 - No strong linear relationship  
 - Pricing alone does not determine demand  
@@ -117,7 +118,7 @@ Created the following features:
 ---
 
 ### 🏆 Superhost vs Rating
-![Superhost vs Rating](superhost_vs_rating.png)
+![Superhost vs Rating](assets/superhost_vs_rating.png)
 
 - Superhosts consistently achieve higher ratings  
 - Lower variability compared to non-superhosts  
@@ -125,7 +126,7 @@ Created the following features:
 ---
 
 ### 🧑‍💼 Listings per Host
-![Host Distribution](host_distribution.png)
+![Host Distribution](assets/host_distribution.png)
 
 - Most hosts operate 1–2 listings  
 - Small number of hosts manage many listings  
@@ -314,3 +315,6 @@ Then open, in order:
 1. `01_data_understanding.ipynb` — initial exploration
 2. `02_eda.ipynb` — visualizations & insights
 3. `03_statistical_analysis.ipynb` — hypothesis testing
+
+👤 Author
+H F M Ammar
