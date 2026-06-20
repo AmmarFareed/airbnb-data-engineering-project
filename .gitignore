@@ -3,18 +3,16 @@
 # -----------------------
 __pycache__/
 *.py[cod]
-*$py.class
+*.pyc
 
+# -----------------------
 # Virtual environments
+# -----------------------
 venv/
 env/
 ENV/
 .venv/
-
-# Distribution / packaging
-build/
-dist/
-*.egg-info/
+.venv-1/
 
 # -----------------------
 # Jupyter Notebooks
@@ -41,6 +39,7 @@ Thumbs.db
 # -----------------------
 # Data (IMPORTANT)
 # -----------------------
+
 # Ignore raw and processed data
 data/raw/*
 data/processed/*
@@ -51,18 +50,17 @@ data/output/*
 !data/processed/.gitkeep
 !data/output/.gitkeep
 
-# -----------------------
-# Large files
-# -----------------------
-*.csv
-*.gz
-*.parquet
-
-# (Optional: allow small sample files)
+# Optional: allow sample data
 !data/sample.csv
 
 # -----------------------
-# Reports (optional)
+# Reports
 # -----------------------
-# Keep final report, ignore drafts
+# Ignore drafts, keep final reports
 reports/*.docx
+
+# -----------------------
+# Misc
+# -----------------------
+.env
+*.sqlite
