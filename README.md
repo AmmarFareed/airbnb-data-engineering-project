@@ -212,28 +212,7 @@ Created the following features:
 
 ---
 
-## 📁 Project Structure
-airbnb-data-engineering-project/
-│
-├── data/
-│   ├── raw/                          # Original raw datasets (csv / csv.gz)
-│   └── processed/                    # Cleaned & feature-engineered datasets
-│
-├── notebooks/
-│   ├── 01_data_understanding.ipynb   # Initial exploration
-│   ├── 02_eda.ipynb                  # Visualizations & insights
-│   └── 03_statistical_analysis.ipynb # Hypothesis testing
-│
-├── src/
-│   ├── clean.py                      # Data cleaning pipeline
-│   └── features.py                   # Feature engineering pipeline
-│
-├── requirements.txt                  # Python dependencies
-├── README.md                         # Project overview
-└── REPORT.md                         # Detailed written report
-
-Got it — here's the whole thing combined into one clean, paste-ready Markdown block:
-markdown## 📁 Project Structure
+📁 Project Structure
 
 ```
 airbnb-data-engineering-project/
